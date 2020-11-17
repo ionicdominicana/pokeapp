@@ -13,7 +13,8 @@ _These instructions Will allow You to obtain a basic handling of the code shown 
 * [Block Tags](https://jsdoc.app/index.html) ⬅️
 * [Compodoc Documentation](https://compodoc.app/guides/getting-started.html) ⬅️
 * [Compodoc Course](https://www.udemy.com/course/compodoc-crea-documentacion-en-angular-ionic/) *Spanish* ⬅️
-* [Compodoc Example ](https://gamezonia-documentation.netlify.app/index.html) ⬅️
+* [Compodoc Example in Spanish](https://gamezonia-documentation.netlify.app/index.html)  ⬅️
+* [Compodoc Example in English](https://compodoc.github.io/compodoc-demo-todomvc-angular/index.html) ⬅️
 * [JSDoc ](https://github.com/danipv54/jsdoc)
 ```
 Are You ready?
