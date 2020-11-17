@@ -1,20 +1,28 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
+<ion-header [translucent]="true" >
+    <ion-toolbar color="danger"> 
+        <ion-title>
+            Los Pokemone'
+        </ion-title>
+    </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" color="primary">
+  
+  <ion-searchbar color="danger" [(ngModel)]="pokemon" (ionChange)="SearchPokemon($event)"></ion-searchbar>
+ 
+ <ion-card class="imgcard"   *ngIf="poke.img" >
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+
+<img class="image" [src]="poke.img" >
+
+<ion-card-header>
+
+<ion-card-title>Nombre: {{poke.name}}</ion-card-title>
+<ion-card-subtitle>Peso:  {{poke.name}} libras</ion-card-subtitle>
+
+</ion-card-header>
+
+</ion-card>
+
+  
 </ion-content>
