@@ -58,7 +58,7 @@ _Love for all of us 🥰_
 * etc.
 
 
-## ¿Who Was? ✒️
+## Who Was? ✒️
 
 
 
